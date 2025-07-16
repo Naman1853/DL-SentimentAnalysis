@@ -33,6 +33,9 @@ Forecasting using:
 Bi-LSTM
 Temporal Convolutional Network (TCN)
 Transformer
+
+
+
 🧠 Model Architectures
 1. LSTM (Main Model)
 Input: Sliding window of past sentiment
@@ -44,11 +47,17 @@ Simple smoothing across the past L days
 3. SOTA Models
 TCN with dilated causal convolutions
 Transformer with positional encoding & self-attention
+
+
+
 ⚙️ Training Strategy
 Train/Val/Test split: 80% / 10% / 10%
 Optimizer: Adam (lr = 0.001)
 Epochs: Max 50 with early stopping (patience = 5)
 Evaluation Metric: Mean Squared Error (MSE)
+
+
+
 📊 Results
 Model	MSE
 Moving Avg	0.000112
