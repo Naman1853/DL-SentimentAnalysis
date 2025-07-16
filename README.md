@@ -7,8 +7,12 @@ Dhruv Jain (202418020)
 Kaustubh Wade (202418024)
 Anujit Nair (202418036)
 Naman Gandhi (202418038)
+
+
+
 📖 Problem Definition
 This project focuses on forecasting the evolution of user sentiments over time from Amazon product reviews, particularly in the Cell Phones & Accessories category. Traditional sentiment analysis offers static insights, missing dynamic changes due to market trends or user experience shifts. Our goal is to build a predictive framework that uses time-series modeling to uncover such sentiment patterns and trends.
+
 
 📚 Dataset
 Source: Amazon Reviews for Cell Phones and Accessories
